@@ -1,0 +1,209 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft YaHei UI"
+}
+a{
+	text-decoration: none;
+}
+body{
+	min-width: 1000px;
+}
+.title{
+	display: block;
+	color:  #f46208;
+	font-size: 48px;
+	letter-spacing: 15px;
+	max-width: 100%;
+	height: auto;
+}
+.smallTitle{
+	color:  #f46208;
+	font-size: 24px;
+	letter-spacing: 5px;
+
+}
+.discrib{
+	width: 60%;
+    display: block;
+    margin: 50px auto;
+}
+.navBlock{
+	margin:35px auto;
+}
+
+.navBlock a {
+	padding: 5px;
+	position: relative;
+	color:  #f46208;
+	font-size: 20px;
+	margin: 35px 5px;
+}
+.nav{
+	width: 850px;
+    margin: auto;
+}
+.bg-black{
+	background-color: #2e2e2e;
+}
+.fl{
+	float: left;
+}
+.ma{
+	margin: auto;
+}
+.mt-10{
+	margin: 10px;
+}
+.mt-150{
+	margin-top: 150px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+
+.ml-3{
+	margin-left: 3%; 
+}
+.ml-15{
+	margin-left: 15%;
+}
+.mr-3{
+	margin-right: 3%; 
+}
+header {
+	background-color: #2e2e2e;
+}
+header > a {
+	margin-left:  10%;
+	line-height: 80px;
+}
+
+header > nav {
+	float: right;
+	margin-right: 1%;
+	line-height:5;
+}
+header>nav>a{
+	display: block;
+	width: 120px;
+	float: left;
+	margin-right: 30px;
+	text-align: center;
+	color: white;
+}
+header>nav>a:hover{
+	background-color: red;
+	color: #2e2e2e;
+	font-weight: bold;
+}
+section.banner{
+	position: relative;
+}
+.banner > img {
+	width: 100%
+}
+.banner > span:nth-of-type(1) {
+	position: absolute;
+	top: 45%;
+    left: 24%;
+	color: #ffffff;
+    font-size: 48px;
+}
+/*.banner > span:nth-of-type(1) {
+	position: absolute;
+	top: 45%;
+    left: 0;
+    width: 500px;
+    margin: auto;
+	color: #fffdfd;
+    font-size: 48px;
+}*/
+
+.banner > span:nth-of-type(2) {
+	position: absolute;
+    top: 55%;
+    left: 30%;
+    color: #fffdfd;
+    font-size: 14px;
+}
+
+section.portortfolio{
+	text-align: center;
+}
+
+.portortfolio >img{
+	width: 100%;
+}
+
+section.stats{
+	text-align: center;
+}
+
+.info{
+	display: inline-block;
+    margin: auto 50px;
+}
+
+section.team{
+	text-align: center;
+	background-color: #2e2e2e;
+	padding: 5%;
+}
+.discribTeam{
+	width: 60%;
+    display: block;
+    margin: 50px auto;
+    color: white;
+    font-size: 14px;
+}
+.team a{
+	display: inline-block;
+	width: 250px;
+	color: white;
+}
+section.contact{
+	margin-top: 100px; 
+	text-align: center;
+/*	border: 1px solid black;*/
+	width: 100%;
+	position: relative;
+}
+
+section.contact>form>div.input input[type="text"]{
+	width: 30%;
+	margin: auto;
+	height: 30px;
+}
+section.contact>form>div.input input[type="text"]::-webkit-input-placeholder{
+	padding-left: 5px;
+}
+
+section.contact>form> textarea{
+	width: 61%;
+	height: 200px;
+	margin-top: 5px;
+}
+section.contact>form> textarea::-webkit-input-placeholder{
+	line-height: 200px;
+	padding-left: 5px;
+}
+section.contact>form> button{
+	background-color: #f46208;
+	padding: 10px;
+	margin-top: 10px;
+	color: #ffffff;
+	border: none;
+	word-spacing: 5px;
+	cursor:pointer;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 80px;
+    line-height: 80px;
+}
